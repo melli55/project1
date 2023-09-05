@@ -4,52 +4,70 @@ margin: 0px
 ;}
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(135, 213, 175);
     padding: 100px;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: normal;
+    letter-spacing: 1px;
 }
 
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(248, 248, 248);
+    color: rgb(14, 55, 22);
+    margin-top: 15px;
+    margin-bottom: 15pxx;
 }
 
 h1{
     font-size: large;
-    color: rgb(158, 148, 240);
+    color: rgb(20, 79, 45);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
+
+
+
 h2{
     font-size: 24px;
-    color: rgb(43, 177, 244);
+    color: rgb(20, 79, 45);
     font-family: cursive;
     font-weight: 300;
     font-style: inherit;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 
 }
+
 h3{
     text-decoration: dotted;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: aqua;
+    color: rgb(20, 79, 45);
+    mix-blend-mode: darken;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 h4{
-    color: rgb(118, 248, 155);
-    text-decoration: line-through;
+    color: rgb(58, 106, 72);
+    text-decoration: dashed;
     text-align: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 ol{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(143, 248, 153);
+    color: rgb(28, 142, 68);
 
 }
 
 ul{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(55, 240, 160);
+    color: rgb(29, 110, 75);
     list-style-type: disc;
 }
 
