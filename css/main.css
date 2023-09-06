@@ -1,7 +1,10 @@
 /* Place CSS styles here */
-*{ box-sizing: border-box;
-margin: 0px
-;}
+
+header{
+    background-color: rgb(196, 161, 110);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
 
 body{
     background-color: rgb(135, 213, 175);
@@ -11,12 +14,30 @@ body{
     letter-spacing: 1px;
 }
 
+
+
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(14, 55, 22);
     margin-top: 15px;
     margin-bottom: 15pxx;
 }
+
+
+
+.column1 {
+    width:100%;
+    margin-top: 10px;
+    height: 10px;
+    z-index: 1;
+    float: left;
+    padding: 100px;
+    mix-blend-mode: multiply;
+    margin-left: -200px;
+    background-color: rgb(2, 39, 12);
+}
+
+
 
 h1{
     font-size: large;
