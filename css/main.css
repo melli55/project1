@@ -8,10 +8,12 @@ header{
 
 body{
     background-color: rgb(135, 213, 175);
+    color: rgb(46, 72, 52);
     padding: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     word-spacing: normal,
-    letter-spacing: 1px;
+    letter-spacing: .5px;
+
 }
 
 .container{
@@ -44,12 +46,21 @@ body{
     mix-blend-mode: luminosity;
 }
 
-
+.column3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    line-height: 23px;
+    
+}
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(14, 55, 22);
-    margin-top: 15px;
-    margin-bottom: 15pxx;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-size: medium;
+    line-height: 23px;
 }
 
 
@@ -58,8 +69,8 @@ h1{
     color: rgb(20, 79, 45);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 
@@ -71,27 +82,35 @@ h2{
     font-weight: 300;
     font-style: inherit;
     letter-spacing: 2px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 
 }
 
 h3{
     text-decoration: dotted;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    color: rgb(20, 79, 45);
+    letter-spacing: 2.5px;
+    color: rgb(33, 100, 61);
     mix-blend-mode: darken;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 50px;
 }
 
 h4{
-    color: rgb(58, 106, 72);
+    color: rgb(25, 89, 38);
     text-decoration: dashed;
     text-align: left;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+h5{
+    color: rgb(25, 89, 38);
+    font-size: medium;
+    margin-top: 50px;
+    margin-bottom: 5px;
+
 }
 
 h6{
@@ -104,27 +123,18 @@ h6{
 ol{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(28, 142, 68);
+    margin-top: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
 
 }
 
 ul{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(29, 110, 75);
+    color: rgb(28, 142, 68);
     list-style-type: disc;
-}
-
-a{
-    color: aqua;
-}
-a:hover{
-    color: rgb(211, 34, 34);
-}
-a:visited{
-    color: black;
-}
-
-img {
-    padding: 20px;
-    width: 200px;
-    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    line-height: 20px;
 }
