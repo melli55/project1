@@ -7,7 +7,7 @@ header{
 }
 
 body{
-    background-color: rgb(135, 213, 175);
+    background-color: rgb(123, 205, 153);
     color: rgb(46, 72, 52);
     padding: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -56,12 +56,13 @@ body{
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(14, 55, 22);
+    color: rgb(19, 90, 44);
     margin-top: 5px;
     margin-bottom: 40px;
     font-size: medium;
     line-height: 23px;
 }
+
 
 
 h1{
@@ -122,7 +123,7 @@ h6{
 
 ol{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(28, 142, 68);
+    color: rgb(19, 90, 44);
     margin-top: 5px;
     letter-spacing: 1px;
     line-height: 20px;
@@ -131,10 +132,21 @@ ol{
 
 ul{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(28, 142, 68);
+    color: rgb(19, 90, 44);
     list-style-type: disc;
     margin-top: 5px;
     margin-bottom: 50px;
     letter-spacing: 1px;
     line-height: 20px;
+}
+
+a{
+    color: rgb(16, 119, 59);
+}
+
+footer{
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(20, 101, 40);
+    text-transform: lowercase;
 }
