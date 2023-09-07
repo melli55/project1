@@ -1,9 +1,16 @@
 /* Place CSS styles here */
 
 header{
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding: .5px;
+    text-align: center;
+    background-color: rgb(3, 24, 11);
+    color: #55e88d;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-bottom: 30px;
+    margin-top: -100px;
 }
+
 
 body{
     background-color: #13351f;
@@ -15,36 +22,16 @@ body{
 
 }
 
-.container{
-    margin-top: -14%;
-    margin-left: auto;
-    margin-right: auto;
-    padding:10px;
-    width: 70%;
-}
 
 .column1 {
-    width: 300%;
-    height: 80px;
-    z-index: 10;
-    padding: 20px;
-    background-color: rgb(4, 42, 20);
-    margin-left: -300px;
-
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px
 }
 
 .column2 {
-    width: auto;
-    height: auto;
-    z-index: 10;
-    padding: 10px;
-    text-align: center;
-    color: rgb(72, 186, 114);
-    margin-top: -150px;
-    mix-blend-mode: luminosity;
-}
-
-.column3 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -52,6 +39,15 @@ body{
     line-height: 23px;
     
 }
+
+.column3 {
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #c5e0ae;
@@ -60,7 +56,6 @@ p{
     font-size: medium;
     line-height: 23px;
 }
-
 
 
 h1{
@@ -97,6 +92,7 @@ h6{
     text-transform: uppercase;
     font-size: xx-large;
 }
+
 
 ol{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
